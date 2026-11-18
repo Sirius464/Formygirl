@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ASCII Lily Bouquet</title>
+  <meta name="description" content="Un bouquet de lys qui pousse et éclot, dessiné en caractères ASCII.">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23000'/%3E%3Ctext x='50' y='72' font-size='70' text-anchor='middle' fill='%23e0263a' font-family='monospace' font-weight='bold'%3E*%3C/text%3E%3C/svg%3E">
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #000;
+      overflow: hidden;
+    }
+    canvas {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      background: #000;
+      cursor: pointer;
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="c" role="img" aria-label="Un bouquet de lys qui pousse et éclot, dessiné en caractères ASCII. Cliquer pour rejouer."></canvas>
+  <script src="bouquet.js"></script>
+</body>
+</html>
